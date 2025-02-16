@@ -53,8 +53,8 @@ Uploaded files are stored locally on the server's filesystem in the `media/` dir
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/file-sharing-platform.git
-   cd file-sharing-platform
+   git clone https://github.com/Arkaprabha13/File_share_project_drf.git
+   cd File_share_project_drf
    ```
 
 2. **Set Up a Virtual Environment**
@@ -63,12 +63,8 @@ Uploaded files are stored locally on the server's filesystem in the `media/` dir
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-4. **Configure Local File Storage**
+3. **Configure Local File Storage**
    Uploaded files are saved in the `media/` directory by default. Ensure the following settings are configured in `settings.py`:
 
    ```python
@@ -76,12 +72,12 @@ Uploaded files are stored locally on the server's filesystem in the `media/` dir
    MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
    ```
 
-5. **Start the Development Server**
+4. **Start the Development Server**
    ```bash
    python manage.py runserver
    ```
 
-6. **Access the Application**
+5. **Access the Application**
    Open your browser and navigate to:
    ```
    http://127.0.0.1:8000/
