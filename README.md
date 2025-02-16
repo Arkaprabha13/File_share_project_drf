@@ -1,6 +1,6 @@
 # File Sharing Platform with Django REST Framework (DRF)
 
-![File Sharing Platform]
+
 
 A simple and intuitive file-sharing platform built using **Django REST Framework (DRF)**. This project allows users to upload multiple files, generate shareable links, and download files securely. The frontend is designed with **Bootstrap** and **FilePond**, providing a modern and responsive user interface.
 
