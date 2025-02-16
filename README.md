@@ -112,12 +112,12 @@ Uploaded files are stored in the `media/` directory by default. The directory st
 ## Screenshots
 
 ### Home Page
-![Home Page]()
+![Home Page](FILE_SHARE/public/static/image/home-page.png)
 
 The home page features a clean and intuitive interface for uploading files. Users can drag and drop files or use the browse button to select files. Once uploaded, a shareable link is generated.
 
 ### Download Page
-![Download Page]()
+![Download Page](FILE_SHARE/public/static/image/download-page.png)
 
 The download page displays the uploaded files and provides a button to download them. The URL for this page is generated after file upload.
 
